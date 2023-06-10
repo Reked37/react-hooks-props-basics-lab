@@ -19,6 +19,10 @@ function App() {
       city={user.city}
       />
       <About bio={user.bio}
+      // github={user.links.github}
+      // linkedin={user.links.linkedin}
+      />
+      <Links
       github={user.links.github}
       linkedin={user.links.linkedin}
       />
